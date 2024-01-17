@@ -9,7 +9,14 @@
       </head>
   <body>
     <header>
-      <h1>{{ site.title }}</h1>
+      
+      <nav><h1>{{ site.title }}</h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="{% link contribute.md %}">Contribute</a></li>
+        </ul>
+      </nav>
+      
     </header>
  <main>
   {{ content }}
