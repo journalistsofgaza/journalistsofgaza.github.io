@@ -1,15 +1,81 @@
-- full_name: Adolfo Villafiorita
-  first_name: Adolfo
-  bio: long bio goes here
+- full_name: Yazan Al-Zuweidi
+  date: January 14, 2023
+  description: Al-Ghad TV journalist.
+  img_url: https://i.postimg.cc/g0pDkvpJ/image.png
 
-- full_name: Pietro Molini
-  first_name: Pietro
-  bio: another long bio
+- full_name: Ahmed Badir
+  date: January 10, 2023
+  description: Al-Hadaf journalist that was killed by an Israeli airstrike near the Al-Aqsa Martyrs' Hospital in Deir el-Balah.
+  img_url: https://i.postimg.cc/85xGcqQd/image.png
+  
+- full_name: Muhammad Abu Dayer
+  date: January 8, 2024
+  description: Journalist that was killed by Israel.
 
-- full_name: Aaron Ciaghi
-  first_name: Aaron
-  bio: another very long bio
+- full_name: Abdullah Baris
+  date: January 8, 2024
+  description: Journalist that was killed by Israel.
 
-- full_name: Mr. John Smith
-  first_name: John
-  bio: his name demonstrates that we leave dots in filenames
+- full_name: Hamza al-Dahdouh
+  date: January 7, 2024
+  description: Al Jazeera journalist and son of Wael Al-Dahdouh, who was killed with colleague by an Israeli airstrike on their vehicle in Khan Younis.
+
+- full_name: Khader Marquez
+  date: December 23
+  description: An Al-Manar cameraman was struck in the right eye by missile fragments following an Israeli airstrike near the Al-Khardali river.
+
+- full_name: Mohamed Ahmed
+  date: December 19
+  description: Palestinian reporter for the Shehab agency and photographer for Al-Aqsa was injured in the left thigh in an Israeli airstrike on Block 2 of the Jabalia refugee camp.
+
+- full_name: Islam Bader
+  date: December 19
+  description: Palestinian reporter and presenter for Al-Aqsa was injured in the right shoulder and hip in an Israeli airstrike on Block 2 of the Jabalia refugee camp.
+
+- full_name: Mohamed Balousha
+  date: December 16
+  description: A reporter for Al-Mashahd TV was shot in the thigh by an Israeli sniper while reporting from Northern Gaza.
+
+- full_name: Mustafa Alkharouf
+  date: December 15
+  description: An Anadolu Agency photojournalist was assaulted along with camera operator Faiz Abu Ramila by Israeli Border Police near Al-Aqsa Mosque in occupied East Jerusalem and was later hospitalised.
+
+- full_name: Wael Al-Dahdouh
+  date: December 15
+  description: The bureau chief of Al Jazeera in the Gaza Strip was injured in an Israeli missile strike at a school in Khan Younis that also killed cameraman Samer Abudaqa.
+
+- full_name: Issam Mawassi
+  date: November 13
+  description: Mawassi, a videographer from Al-Jazeera, sustained injuries when two Israeli missiles targeted the vicinity of journalists in Yaroun, located in southern Lebanon. The clashes also caused damage to the vehicles belonging to the journalists present in the area.
+
+- full_name: Dylan Collins
+  date: October 13
+  description: A video journalist for AFP was injured in the same attack that killed Issam Abdallah.
+
+- full_name: Carmen Joukhadar
+  date: October 13
+  description: A photographer for Agence France-Press (AFP) was injured in the same attack that killed Issam Abdallah.
+
+- full_name: Elie Brakhya
+  date: October 13
+  description: Al Jazeera journalists were injured in the same attack that killed Issam Abdallah.
+
+- full_name: Maher Nazeh
+  date: October 13
+  description: Al Jazeera journalists were injured in the same attack that killed Issam Abdallah.
+
+- full_name: Thaer Al-Sudani
+  date: October 13
+  description: Reuters journalists were injured in the same attack that killed Issam Abdallah.
+
+- full_name: Issam Abdallah
+  date: October 13
+  description: A videographer working for Reuters was killed in an Israeli artillery strike that specifically targeted a group of reporters.
+
+- full_name: Yaniv Zohar
+  date: October 7, 2023
+  description: A photographer for Israel Hayom and former Associated Press videojournalist was killed along with his wife, two daughters, and father-in-law in Hamas' Nahal Oz massacre.
+
+- full_name: Mohammad Al-Salhi
+  date: October 7, 2023
+  description: A photojournalist for the Fourth Authority news agency was shot near a Palestinian refugee camp in central Gaza.

@@ -1,65 +1,304 @@
-<h1>People (generated from YAML)</h1>
-
-<ul>
-
-  <li><a href="people/adolfo-villafiorita/">Adolfo Villafiorita</a></li>
-
-  <li><a href="people/pietro-molini/">Pietro Molini</a></li>
-
-  <li><a href="people/aaron-ciaghi/">Aaron Ciaghi</a></li>
-
-  <li><a href="people/mr.-john-smith/">Mr. John Smith</a></li>
-
-</ul>
-
-<h1>Pets (generated from JSON)</h1>
-
-<ul>
-
-    <li><a href="pets/felix-the-cat/">Felix the Cat</a></li>
-
-    <li><a href="pets/fido-the-dog/">Fido The Dog</a></li>
-
-    <li><a href="pets/buddy-the-dog/">Buddy The Dog</a></li>
-
-    <li><a href="pets/ace-the-dog/">Ace The Dog</a></li>
-
-    <li><a href="pets/biscuit-the-cat/">Biscuit The Cat</a></li>
-
-    <li><a href="pets/caramel-the-cat/">Caramel The Cat</a></li>
-
-</ul>
-
-<h1>Filter Examples (generated from book in YAML)</h1>
-
-<h2>Approach 1: Filter Links, Generate all pages</h2>
-
-<p>In the page <a href="books.html">books</a>, the books are organized in two lists: books I have read and those I have not.  However a page is still generated for each book. <b>This is not a filter on the pages being generated: it is only a filter on the links being generated.</b></p>
-
-<h2>Approach 2: <tt>filter</tt> keyword</h2>
-
-<p>If the yaml matter has a boolean field (for instance: <tt>filter</tt> or, more evocatively, <tt>publish</tt>), I can specify it in <tt>_config</tt> to select what pages have to be generated.</p>
-
-<h2>Approach 3: <tt>filter_condition</tt> keyword</h2>
-
-<p>I can use the <tt>filter_condition</tt> field in <tt>config.yml</tt>. The field takes as argument a string with ruby expression which should evaluate to a Boolean value.  The <tt>filter_condition</tt> is used as an additional selector on top of the <tt>filter</tt> condition.</p>
-
-<p>See the documentation for more details.</p>
-
-<h1>Hierarchy Example</h1>
-
-<p>If your data is structured in a hierarhcy, specify the path to access your data in the <tt>data</tt> field.</p>
-
-<p>See the file <tt>_data/hierarchy.yml</tt> for a working example.  The pages generated are the following:</p>
-
-<ul>
+<html>
+  <head>
+    <title>Martyred Journalists of Gaza 🇵🇸</title>
+    <meta description="index.html">
+    <meta description="">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/static/favicon.ico">
+      </head>
+  <body>
+    <header>
+      <h1>Martyred Journalists of Gaza 🇵🇸</h1>
+    </header>
+ <main>
+  <div class="name-container">
     
-    <li>
-        <a href="hierarchy/professor-x/">Professor X</a>
-    </li>
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+                <a href="people/yazan-al-zuweidi/"><img src="https://i.postimg.cc/g0pDkvpJ/image.png" alt="Image"
+                        width="75%"></a>
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/yazan-al-zuweidi/">Yazan Al-Zuweidi</a>
+            </div>
+        </div>
+
+    </div>
     
-    <li>
-        <a href="hierarchy/scott-summers/">Scott Summers</a>
-    </li>
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+                <a href="people/ahmed-badir/"><img src="https://i.postimg.cc/85xGcqQd/image.png" alt="Image"
+                        width="75%"></a>
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/ahmed-badir/">Ahmed Badir</a>
+            </div>
+        </div>
+
+    </div>
     
-</ul>
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/muhammad-abu-dayer/">Muhammad Abu Dayer</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/abdullah-baris/">Abdullah Baris</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/hamza-al-dahdouh/">Hamza al-Dahdouh</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/khader-marquez/">Khader Marquez</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/mohamed-ahmed/">Mohamed Ahmed</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/islam-bader/">Islam Bader</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/mohamed-balousha/">Mohamed Balousha</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/mustafa-alkharouf/">Mustafa Alkharouf</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/wael-al-dahdouh/">Wael Al-Dahdouh</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/issam-mawassi/">Issam Mawassi</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/dylan-collins/">Dylan Collins</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/carmen-joukhadar/">Carmen Joukhadar</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/elie-brakhya/">Elie Brakhya</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/maher-nazeh/">Maher Nazeh</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/thaer-al-sudani/">Thaer Al-Sudani</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/issam-abdallah/">Issam Abdallah</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/yaniv-zohar/">Yaniv Zohar</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="name-box">
+        <div class="card">
+            <div class="image-card">
+                
+
+                
+            </div>
+            <div class="name-card">
+                <a href="people/mohammad-al-salhi/">Mohammad Al-Salhi</a>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+ </main>
+  </body>
+</html>
